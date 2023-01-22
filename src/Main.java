@@ -47,7 +47,7 @@ public class Main {
         int[] arr = generateRandomArray();
         int sum3 = 0;
         for (int i = 0; i < 30; i++) {
-            sum3 = sum3 + arr[i];
+            sum3 += arr[i];
         }
         double mean3 = sum3 / 30f;
         System.out.println("Средняя сумма трат за месяц составила " + mean3 + " рублей");
