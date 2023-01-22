@@ -49,13 +49,15 @@ public class Main {
         for (int i = 0; i < 30; i++) {
             sum3 = sum3 + arr[i];
         }
-        double mean3 = sum3/30f;
+        double mean3 = sum3 / 30f;
         System.out.println("Средняя сумма трат за месяц составила " + mean3 + " рублей");
     }
 
     public static void task4() {
         System.out.println("Task 4");
-        int[] arr = generateRandomArray();
-
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = 10; reverseFullName.length > i && i >= 0; i--) {
+            System.out.print(reverseFullName[i]);
+        }
     }
 }
